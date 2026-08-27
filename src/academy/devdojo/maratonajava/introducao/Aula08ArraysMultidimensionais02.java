@@ -6,7 +6,7 @@ public class Aula08ArraysMultidimensionais02 {
 
         arrayInt[0] = new int[2];
         arrayInt[1] = new int[3];
-        arrayInt[2] = new int[6];
+        arrayInt[2] = new int[]{1, 2, 3};
 
         for (int[] arrayBase: arrayInt){
             for (int num: arrayBase){
